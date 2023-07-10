@@ -1,11 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Car Selling Web Site</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/5cb82b043a.js" crossorigin="anonymous"></script>
+
+    <!-- google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./css/stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <!-- menu  -->
+      <nav>
+        <div class="logo">
+          <img src="./assets/icons/Logo-header.png" alt="Header logo" />
+        </div>
+        <ul>
+          <li><a href="">Used Cars</a></li>
+          <li><a href="">Auctions</a></li>
+          <li><a href="">New Cars</a></li>
+          <li><a href="">Sell Cars</a></li>
+          <li><a href="">Local Dealers</a></li>
+          <li><a href="">Support</a></li>
+          <li>
+            <a class="signup-info" href=""
+              ><img src="./assets/icons/Resting.png" alt="User Image" /><span
+                >Sign Up</span
+              ></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- background image  -->
+      <div class="bg-img">
+        <div class="overlay">
+          <div class="header-intro">
+            <h1 class="header-title">Say hello to your next awesome vehicle</h1>
+            <p class="header-feature">
+              Featuring Used, Wholesale and Salvage Cars, Trucks & SUVs for Sale
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- search container  -->
+      <div class="search-container">
+         <div class="search-wrapper">
+            <div>
+                <label for="">Type</label>
+                <select class="bold-txt" name="" id="">
+                    <option value="user-card">User Card</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Make</label>
+                <select class="bold-txt" name="" id="">
+                    <option value="infinity">Infinity</option>
+                </select>
+              </div>
+              <div>
+                <label class="inline-label" for="">Year</label>
+                <select name="" id=""></select>
+              </div>
+              <div>
+                <label class="inline-label" for="">Model</label>
+                <select name="" id=""></select>
+              </div>
+              <div>
+                <label class="inline-label" for="">Price</label>
+                <select name="" id=""></select>
+              </div>
+              <div><button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Search</button></div>
+         </div>
+      </div>
+    </header>
+    <main>
+        <!-- marks section  -->
+        <section class="marks">
+            <div class="marks-container">
+                <div class="mark"><a href=""><img src="./assets/icons/bitmap1.png" alt=""></a></div>
+                <div class="mark"><a href=""><img src="./assets/icons/bitmap2.png" alt=""></a></div>
+                <div class="mark"><a href=""><img src="./assets/icons/Bitmap3.png" alt=""></a></div>
+                <div class="mark"><a href=""><img src="./assets/icons/Bitmap4.png" alt=""></a></div>
+                <div class="mark"><a href=""><img src="./assets/icons/Bitmap5.png" alt=""></a></div>
+                <div class="mark"><a href=""><img src="./assets/icons/Bitmap6.png" alt=""></a></div>
+            </div>
+        </section>
+
+        <!-- active auctions section  -->
+        <section class="auctions-section">
+            <h3 class="section-title">Active auctions</h3>
+            <div class="auctions-container">
+                <div class="auction-item">
+                    <img src="./assets/images/car1.png" alt="car image">
+                    <h3 class="auction-title">2013 Subaru Forester</h3>
+                    <div class="auction-amenities"><span>11 475 Miles</span> <span>#20199884</span></div>
+                    <div class="auction-location">
+                        <img src="./assets/icons/Logo1.png" alt="logo1">
+                        <div>
+                            <h3>Subaru Champlin</h3>
+                            <p>Seller</p>
+                        </div>
+                    </div>
+                    <div class="auction-price">
+                        <div>
+                            <h5>$21,480</h5>
+                            <p>Price</p>
+                        </div>
+                        <div>
+                            <h5>$14,000</h5>
+                            <p>10 bids</p>
+                        </div>
+                        <div><button class="btn-primary">Place Bid</button></div>
+                    </div>
+                </div>
+                <div class="auction-item">
+                    <img src="./assets/images/car2.png" alt="car2">
+                    <h3 class="auction-title">2010 BMW X3</h3>
+                    <div class="auction-amenities"><span>11 475 Miles</span> <span>#20199832</span></div>
+                    <div class="auction-location">
+                        <img src="./assets/icons/Logo2.png" alt="logo2">
+                        <div>
+                            <h3>BMW Dealer Liana</h3>
+                            <p>Seller</p>
+                        </div>
+                    </div>
+                    <div class="auction-price">
+                        <div>
+                            <h5>$36,800</h5>
+                            <p>Price</p>
+                        </div>
+                        <div>
+                            <h5>$8,000</h5>
+                            <p>18 bids</p>
+                        </div>
+                        <div><button class="btn-primary">Place Bid</button></div>
+                    </div>
+                </div>
+                <div class="auction-item">
+                    <img src="./assets/images/car3.png" alt="car3">
+                    <h3 class="auction-title">2016 Toyota BRZ</h3>
+                    <div class="auction-amenities"><span>11 475 Miles</span> <span>#20199880</span></div>
+                    <div class="auction-location">
+                        <img src="./assets/icons/Logo3.png" alt="logo3">
+                        <div>
+                            <h3>Toyota Turnpike</h3>
+                            <p>Seller</p>
+                        </div>
+                    </div>
+                    <div class="auction-price">
+                        <div>
+                            <h5>$29,500</h5>
+                            <p>Price</p>
+                        </div>
+                        <div>
+                            <h5>$10,900</h5>
+                            <p>12 bids</p>
+                        </div>
+                        <div><button class="btn-primary">Place Bid</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- features section  -->
+        <section class="features-section">
+            <div class="features-container">
+                <div class="online-auction">
+                    <h3 class="section-title">Online Auto Auctions</h3>
+                    <p class="online-auction-small-heading">Vehicles available for sale</p>
+                    <div class="counter">
+                        <h1>2</h1>
+                        <h1>0</h1>
+                        <h1>8</h1>
+                        <h1>9</h1>
+                        <h1>9</h1>
+                    </div>
+                    <p class="online-auction-description">Along with conventional advertising and below the line activities, organizations and corporate bodies have come to realize that they need to invest in trade shows in order to create maximum recall for their product or brand name.</p>
+                    <div class="online-auction-links">
+                        <img src="./assets/icons/icon-text.png" alt="Text icon for link">
+                        <span>Explore All Auctions</span>
+                    </div>
+                </div>
+                <div class="mockup">
+                    <div class="mockup-image-container">
+                        <img src="./assets/images/Mockup.png" alt="Mockup Image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- car finder section  -->
+        <section class="car-finder-section">
+            <header class="car-finder-section-header">
+                <h3 class="section-title">Find car by</h3>
+                <ul>
+                    <li><a href="">Body types</a></li>
+                    <li><a href="">Makes</a></li>
+                    <li><a href="">Models</a></li>
+                    <li><a href="">Trending</a></li>
+                </ul>
+            </header>
+        </section>
+    </main>
+    <footer></footer>
+  </body>
 </html>
